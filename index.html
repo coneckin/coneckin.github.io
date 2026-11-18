@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coneckin - Login WiFi Kampus Satu Ketukan</title>
+    <meta name="description" content="Aplikasi Android untuk login WiFi kampus secara otomatis. Simpan akun sekali, login satu ketukan tanpa mengetik ulang.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Hero -->
+<header class="hero">
+    <div class="container">
+        <h1>Coneckin</h1>
+        <p class="lead">Login WiFi kampus dengan satu ketukan.<br>Simpan username dan password sekali, lalu pindah ruangan tanpa mengetik ulang.</p>
+        <div class="btn-group" id="btn-group">
+            <a class="btn primary" id="download-btn" href="https://github.com/coneckin/coneckin/releases/latest/download/coneckin.apk">
+                ⬇ Download APK
+            </a>
+            <a class="btn secondary" id="all-releases-btn" href="https://github.com/coneckin/coneckin/releases">
+                Semua Rilis
+            </a>
+        </div>
+        <p class="muted" id="version-info">Membutuhkan Android 10 atau lebih baru.</p>
+    </div>
+</header>
+
+<!-- Panduan Instalasi -->
+<section class="container" id="instalasi">
+    <h2>📲 Cara Instalasi</h2>
+    <div class="card">
+        <ol>
+            <li>Unduh <code>coneckin.apk</code> dengan tombol <strong>Download APK</strong> di atas.</li>
+            <li>Buka file yang diunduh. Jika diminta, izinkan <em>Install dari sumber tidak dikenal</em> untuk browser atau pengelola file Anda.</li>
+            <li>Jika muncul peringatan Play Protect, pilih <em>Install saja</em>. Aplikasi ini dibagikan di luar Play Store.</li>
+            <li>Ketuk <strong>Install</strong>, lalu buka Coneckin.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- Panduan Penggunaan -->
+<section class="container" id="penggunaan">
+    <h2>🚀 Cara Penggunaan</h2>
+    <div class="card">
+        <ol>
+            <li>Sambungkan HP ke WiFi kampus lewat pengaturan WiFi seperti biasa.</li>
+            <li>Buka Coneckin, ketuk <strong>Tambah Akun</strong>, lalu isi nama akun, username, dan password. Alamat portal sudah terisi untuk kampus ini.</li>
+            <li>Ketuk <strong>LOGIN WIFI</strong>. Aplikasi masuk ke portal di latar belakang.</li>
+            <li>Saat pindah ruangan, cukup buka Coneckin dan ketuk <strong>LOGIN WIFI</strong> lagi. Satu akun berlaku untuk semua ruangan yang memakai portal yang sama.</li>
+        </ol>
+    </div>
+</section>
+
+<!-- Tips -->
+<section class="container" id="tips">
+    <h2>💡 Tips</h2>
+    <div class="card highlight">
+        <strong>Akses lebih cepat</strong>
+        <p>Tarik panel atas HP, ketuk ikon pensil, lalu seret tile <strong>Login WiFi</strong> ke panel. Satu ketukan membuka Coneckin dan langsung login.</p>
+    </div>
+</section>
+
+<!-- Troubleshooting -->
+<section class="container" id="troubleshoot">
+    <h2>🔧 Jika Login Otomatis Gagal</h2>
+    <div class="card">
+        <ul>
+            <li>Periksa username dan password pada akun yang tersimpan.</li>
+            <li>Ketuk <strong>Buka halaman portal</strong> untuk login manual, misalnya jika portal meminta langkah tambahan.</li>
+            <li>Jika HP bertanya soal WiFi tanpa internet, pilih <strong>Tetap terhubung</strong>.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Keamanan -->
+<section class="container" id="keamanan">
+    <h2>🔒 Keamanan &amp; Privasi</h2>
+    <div class="card">
+        <ul>
+            <li>Username dan password disimpan terenkripsi di HP Anda dan <strong>tidak dikirim ke server mana pun</strong>.</li>
+            <li>Data hanya dikirim ke halaman login portal yang sudah Anda daftarkan.</li>
+            <li>Tidak ada sambungan otomatis. Login berjalan hanya saat Anda mengetuk tombol.</li>
+            <li>Anda bisa mengunci tombol login dengan PIN, pola, atau sidik jari lewat saklar di aplikasi.</li>
+            <li>Coneckin hanya dipakai untuk akun milik Anda sendiri.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="container">
+    <p class="muted">
+        <a href="https://github.com/coneckin/coneckin">Kode Sumber</a> · Dibuat untuk mahasiswa ULBI
+    </p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
